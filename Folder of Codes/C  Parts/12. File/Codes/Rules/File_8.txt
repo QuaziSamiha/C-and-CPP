@@ -1,0 +1,2 @@
+Name = samiha , Age = 25 
+Name = madu , Age = 50 

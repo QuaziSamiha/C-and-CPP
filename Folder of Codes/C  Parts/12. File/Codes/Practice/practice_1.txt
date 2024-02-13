@@ -1,0 +1,4 @@
+Name		Age	Phone_Number
+--------------  ---     --------------
+samiha		12	155
+akku		23	199
