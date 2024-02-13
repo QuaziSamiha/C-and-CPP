@@ -4,19 +4,18 @@ using namespace std;
 
 int main()
 {
-    int n, first = 2, second = 1, lucas = 0;
+    int n, first = 0, second = 1, febo = 0;
 
     cout << "enter a number : ";
     cin >> n;
 
     cout << endl
          << first << "\t" << second << "\t";
-
-    for (int i = 3; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
-        lucas = first + second;
-        cout << lucas << "\t";
+        febo = first + second;
+        cout << febo << "\t";
         first = second;
-        second = lucas;
+        second = febo;
     }
 }
