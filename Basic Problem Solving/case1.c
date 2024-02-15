@@ -13,6 +13,5 @@ int main(){
     return 0;
 }
 
-
 // capital A = ascii value 65
 // small a = ascii value 97
