@@ -1,4 +1,3 @@
-
 // 15.02.24
 #include <stdio.h>
 #include<math.h>
