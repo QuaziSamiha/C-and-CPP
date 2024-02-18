@@ -1,37 +1,43 @@
-// strong number
-// 145 = 1! + 4! + 5! = 1 + 24 + 120 = 145
 #include <iostream>
 
 using namespace std;
 
+void LeapYear(int, int);
+
 int main()
 {
-    int q, n, fact, result = 0, temp, r;
+    int startYear, endYear;
 
-    cout << "Enter a number : ";
-    cin >> n;
+    cout << "Enter a Start Year: ";
+    cin >> startYear;
+    cout << "Enter a End Year: ";
+    cin >> endYear;
 
-    fact = 1;
-    q = n;
+    LeapYear(startYear, endYear);
+    return 0;
+}
 
-    while (q != 0)
+void LeapYear(int startYear, int endYear)
+{
+    if (startYear < endYear)
     {
-        r = q % 10;
-        for (int i = 1; i <= r; i++)
+        for (int i = endYear; i >= startYear; i--)
         {
-            fact = fact * i;
+            if (i % 400 == 0)
+            {
+                cout << i << " is leap year" << endl;
+            }
+            else
+            {
+                if ((i % 4 == 0) && (i % 100 != 0))
+                {
+                    cout << i << " is leap year" << endl;
+                }
+                else
+                {
+                    cout << i << " is not leap year" << endl;
+                }
+            }
         }
-        result = result + fact;
-        fact = 1;
-        q = q / 10;
-    }
-
-    if (result == n)
-    {
-        cout << "Strong Number" << endl;
-    }
-    else
-    {
-        cout << "Not Strong Number" << endl;
     }
 }

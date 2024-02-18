@@ -18,9 +18,9 @@ class_name::class_name(int parameter_1, int parameter_2) // defining parameteriz
 
 int main()
 {
-   // class_name  object_2; it will show an error since the class ha no default constructor
+   // class_name object_2; it will show an error since the class ha no default constructor
 
-    class_name  object_1 = class_name(12,15); // calling constructor explicitly
+    class_name object_1 = class_name(12,15); // calling constructor explicitly
     return 0;
 }
 

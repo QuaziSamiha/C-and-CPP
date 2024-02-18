@@ -4,8 +4,9 @@ using namespace std;
 
 /*
 Whenever we define one or more non-default constructors( with parameters ) for a class, a default
-constructor( without parameters ) should also be explicitly defined as the compiler will not provide a default constructor
-in this case. However, it is not necessary but it is considered to be the best practice to always define a default constructor.
+constructor( without parameters ) should also be explicitly defined as the compiler will not provide a 
+default constructor in this case. However, it is not necessary but it is considered to be 
+the best practice to always define a default constructor.
 */
 
 class class_name

@@ -23,14 +23,16 @@ int main()
 }
 
 /*
-A constructor without any arguments or with default value for every argument, is said to be default constructor. What is the significance
-of default constructor? Will the code be generated for every default constructor? Will there be any code inserted by the compiler
+A constructor without any arguments or with default value for every argument, is said to be default constructor. 
+What is the significance of default constructor? 
+Will the code be generated for every default constructor? Will there be any code inserted by the compiler
 to the user implemented default constructor behind the scenes?
-Note: Even if we do not define any constructor explicitly, the compiler will automatically provide a default constructor implicitly.
-The compiler will implicitly declare default constructor if not provided by programmer, will define it when in need. Compiler
-defined default constructor is required to do certain initialization of class internals. It will not touch the data members or plain
-old data types (aggregates like an array, structures, etc…). However, the compiler generates code for default constructor based on the
-situation.
+Note: Even if we do not define any constructor explicitly, the compiler will automatically provide a default constructor 
+implicitly.
+The compiler will implicitly declare default constructor if not provided by programmer, will define it when in need. 
+Compiler defined default constructor is required to do certain initialization of class internals. 
+It will not touch the data members or plain old data types (aggregates like an array, structures, etcï¿½). 
+However, the compiler generates code for default constructor based on the situation.
 
 Consider a class derived from another class with the default constructor, or a class containing another class object with
 default constructor. The compiler needs to insert code to call the default constructors of base class/embedded object.

@@ -9,7 +9,7 @@ int main()
 samiha:
     for(int i = 1; i <= 5; i++)
     {
-        cout<<arr<<" x "<<i<<" = "<<arr*i<<endl;
+        cout<<a<<" x "<<i<<" = "<<a*i<<endl;
     }
 
     cout<<endl<<endl;

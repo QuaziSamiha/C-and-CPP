@@ -14,7 +14,7 @@ public :
 class intermediate_subclass : public superclass
 {
 protected :
-    int m_intermediate_subclass; // they will be protected in sub-class
+    int m_intermediate_subclass; // it will be protected in sub-class
 public :
     void function_intermediate_subclass(void);  // it will be public both intermediate-sub-class & sub-class
 };
@@ -26,7 +26,7 @@ public :
     void function_subclass(void);
 };
 
-void  superclass :: function_superclass(void) // defining member function of super-class
+void superclass :: function_superclass(void) // defining member function of super-class
 {
     cout<<"Enter an integer for superclass : ";
     cin>>m_superclass;

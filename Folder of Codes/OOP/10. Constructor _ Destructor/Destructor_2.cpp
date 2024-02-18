@@ -1,6 +1,6 @@
 // (11:43pm,11 May,2020 & 7:19am,17 august,2020)
 #include<iostream>
-#include<conio.h>
+// #include<conio.h>
 
 using namespace std;
 
@@ -48,13 +48,13 @@ int main()
         object_one.member_function_1(); // calling member function through object
         object_one.member_function_2(); // calling member function through object
     } // destructor is automatically called for destroying object_one and free the memory
-    getch();
+    // getch();
 
     class_name object_two; // creating object and default constructor is initialized here
 
     object_two.member_function_1(); // calling member function through object
     object_two.member_function_2(); // calling member function through object
-    getch();
+    // getch();
 
     return 0;
 

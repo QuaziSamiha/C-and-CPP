@@ -15,7 +15,7 @@ public :
 
 int main()
 {
-    class_name  object; // object object_1 is automatically initialized through the class constructor
+    class_name object; // object object_1 is automatically initialized through the class constructor
 
     return 0;
 }
