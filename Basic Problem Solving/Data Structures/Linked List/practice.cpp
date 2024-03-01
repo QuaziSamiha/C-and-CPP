@@ -21,11 +21,11 @@ int main()
     current->link = NULL;
     head->link = current;
 
-    struct node *current2 = NULL;
-    current2 = (struct node *)malloc(sizeof(struct node));
-    current2->data = 60;
-    current2->link = NULL;
-    current->link = current2;
+    current->data = 60;
+    current->link = NULL;
+    head->link->link = current;
+
+    head->link->link->link = NULL;
 
     struct node *ptr = NULL;
     ptr = head;
