@@ -8,6 +8,12 @@ In Object Oriented Programming, Encapsulation is defined as binding together the
 the functions that manipulate them.
 */
 
+/*
+The process of implementing encapsulation can be sub-divided into two steps:
+1. Creating a class to encapsulate all the data and methods into a single unit.
+2. Hiding relevant data using access specifiers.
+*/
+
 using namespace std;
 
 // encapsulation is a process of combining variables and functions in a single unit(class)
@@ -33,6 +39,8 @@ int main()
     ob.function_1();
 }
 
+// Encapsulation also leads to data abstraction.
+
 /*
 Two Important property of Encapsulation 
 Data Protection: Encapsulation protects the internal state of an object by keeping its data members 
@@ -55,4 +63,18 @@ In this case, he is not allowed to directly access the data of the sales section
 contact some other officer in the sales section and then request him to give the particular data.
 This is what Encapsulation is. Here the data of the sales section and the employees that can manipulate 
 them are wrapped under a single name “sales section”. 
+*/
+
+/*
+Role of Access Specifiers in Encapsulation:
+Access specifiers facilitate Data Hiding in C++ programs by restricting access to the class 
+member functions and data members. 
+There are three types of access specifiers in C++:
+1. Private: Private access specifier means that the member function or data member can only 
+be accessed by other member functions of the same class.
+2. Protected: A protected access specifier means that the member function or data member can 
+be accessed by other member functions of the same class or by derived classes.
+3. Public: Public access specifier means that the member function or data member can be accessed 
+by any code. 
+By default, all data members and member functions of a class are made private by the compiler.
 */
