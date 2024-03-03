@@ -18,3 +18,9 @@ int main()
     pointer_variable = &variable_3;
     cout<<"variable_3 : "<< *pointer_variable <<endl;
 }
+
+/*
+variable_1 : 23
+variable_2 : 70
+variable_3 : 11
+*/

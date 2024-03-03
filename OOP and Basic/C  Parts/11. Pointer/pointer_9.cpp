@@ -25,3 +25,13 @@ void function_name(int *pointer_parameter_1, int *pointer_parameter_2) // defini
     *pointer_parameter_1 = 45;
     *pointer_parameter_2 = 62;
 }
+
+/*
+Before calling function_name() : 
+variable_1 : 11
+variable_2 : 33
+
+After calling function_name() : 
+variable_1 : 45
+variable_2 : 62
+*/

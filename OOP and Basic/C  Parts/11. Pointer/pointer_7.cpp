@@ -20,3 +20,10 @@ int main()
     cout<<"address of pointer (&pointer_variable) : "<< &pointer_variable <<endl;
 }
 
+/*
+value of variable : 4
+address of variable (&variable) : 0x7ffc786f850c
+address of variable using pointer_variable : 0x7ffc786f850c
+value of variable using  pointer_variable (*pointer_variable) : 4
+address of pointer (&pointer_variable) : 0x7ffc786f8510
+*/

@@ -48,3 +48,22 @@ void function_2(int *pointer_parameter_1, int *pointer_parameter_2) // definitio
     *pointer_parameter_2 = 62;
 }
 
+/*
+Pass by Value : 
+Before calling function_1() : 
+variable_1 : 11
+variable_2 : 33
+
+After calling function_1() : 
+variable_1 : 11
+variable_2 : 33
+
+  Pass by Address : 
+Before calling function_2() : 
+variable_1 : 11
+variable_2 : 33
+
+After calling function_2() : 
+variable_1 : 45
+variable_2 : 62
+*/

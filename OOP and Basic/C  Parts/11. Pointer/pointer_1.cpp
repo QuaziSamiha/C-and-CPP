@@ -22,3 +22,11 @@ int main()
     cout<<"value of variable using  pointer variable (*pointer_variable) : "<< *pointer_variable <<endl;
     cout<<"address of pointer (&pointer_variable)                        : "<< &pointer_variable <<endl;
 }
+
+/*
+value of variable                                             : 5
+address of variable (&variable)                               : 0x7ffcfdf8d31c
+address of variable using pointer variable (pointer_variable) : 0x7ffcfdf8d31c
+value of variable using  pointer variable (*pointer_variable) : 5
+address of pointer (&pointer_variable)                        : 0x7ffcfdf8d320
+*/
