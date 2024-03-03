@@ -9,8 +9,7 @@ int main()
     cout << "enter a number : ";
     cin >> n;
 
-    cout << endl
-         << first << "\t" << second << "\t";
+    cout << endl << first << "\t" << second << "\t";
     for (int i = 0; i < n; i++)
     {
         febo = first + second;
