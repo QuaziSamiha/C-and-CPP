@@ -8,8 +8,16 @@ int main()
     {
         for (j = 1; j <= 5; j++)
         {
-            printf("%c", j + 64);
+            printf("%c ", j + 64);
         }
         printf("\n");
     }
 }
+
+/*
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+*/
