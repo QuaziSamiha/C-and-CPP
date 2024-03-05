@@ -20,7 +20,7 @@ public :
 
 int main()
 {
-    class_name  object;
+    class_name object;
 
     object.member_function_1(24);
     object.member_function_2();

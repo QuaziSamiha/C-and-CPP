@@ -12,12 +12,12 @@ public :
 
 int main()
 {
-    int  class_name::*pointer_name_1; // declaring
+    int class_name::*pointer_name_1; // declaring
     pointer_name_1 = &class_name::data_member; // assigning
 
-    int  class_name::*pointer_name_2 = &class_name::data_member; // declaring and assigning
+    int class_name::*pointer_name_2 = &class_name::data_member; // declaring and assigning
 
-    class_name  object;
+    class_name object;
 
     object.data_member = 24; // direct access
     cout<<"data_member : "<< object.data_member<<endl;

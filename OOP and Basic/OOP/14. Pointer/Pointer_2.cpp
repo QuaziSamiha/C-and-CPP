@@ -36,3 +36,13 @@ int main()
 
     return 0;
 }
+
+/*
+Value : 21
+Value : 32
+Value : 21
+
+Value : 15
+Value : 46
+Value : 15
+*/
