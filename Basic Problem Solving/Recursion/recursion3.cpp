@@ -1,7 +1,7 @@
 #include <iostream>
-// print number in decreasing order
+// print number in increasing order
 using namespace std;
-// tail recursion
+// head recursion
 // direct recursion 
 // 13.03.24
 
@@ -9,9 +9,8 @@ void fun(int n)
 {
     if (n > 0)
     {
-
+        fun(n - 1); // head recursion
         cout << n << "\t";
-        fun(n - 1); // tail recursion
     }
 }
 
@@ -21,4 +20,4 @@ int main()
     return 0;
 }
 
-// output: 4	3	2	1	
+// output: 1	2	3	4	
