@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// factorial -- solved using iteration
 int main()
 {
     int n, fact = 1;
