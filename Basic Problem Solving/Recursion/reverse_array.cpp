@@ -1,4 +1,3 @@
-/* Online C++ Compiler and Editor */
 #include <iostream>
 
 using namespace std;
