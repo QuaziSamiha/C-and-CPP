@@ -15,10 +15,11 @@ int fibonacci(int n)
     }
     else
     {
-        return f(n - 1) + f(n - 2);
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
 
-int main(){
+int main()
+{
     cout << fibonacci(10) << "\t";
 }
