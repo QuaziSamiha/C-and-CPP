@@ -26,14 +26,14 @@ public :
     }
 };
 
-class class_3 : public class_1
-{
-public :
-    void member_function(void) // override function
-    {
-        cout << "class_3" << endl;
-    }
-};
+// class class_3 : public class_1
+// {
+// public :
+//     void member_function(void) // override function
+//     {
+//         cout << "class_3" << endl;
+//     }
+// };
 
 int main()
 {
@@ -43,7 +43,7 @@ int main()
     class_2 ob2;
     ob2.member_function();
 
-    class_3 ob3;
-    ob3.member_function();
+    // class_3 ob3;
+    // ob3.member_function();
     return 0;
 }

@@ -25,7 +25,7 @@ int main()
 	// pointer of Parent type that points to derived1
 	Parent* ptr = &Child_Derived;
 
-	// call function of Base class using ptr
+	// call function of Base class using ptr of base class
 	ptr->GeeksforGeeks();
 
 	return 0;
