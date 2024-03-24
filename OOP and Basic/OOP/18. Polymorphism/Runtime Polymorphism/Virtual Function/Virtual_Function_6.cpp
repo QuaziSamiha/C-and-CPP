@@ -34,8 +34,8 @@ int main()
 
     superclass *pointer[2];
 
-    subclass_1  ob1;
-    subclass_2  ob2;
+    subclass_1 ob1;
+    subclass_2 ob2;
 
     pointer[0] = &ob1;
     pointer[1] = &ob2;

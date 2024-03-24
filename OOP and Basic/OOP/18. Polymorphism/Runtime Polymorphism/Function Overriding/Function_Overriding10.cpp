@@ -3,15 +3,14 @@
 using namespace std;
 // pure virtual function --> virtual function with no definition
 // a virtual function is redefined in derived class
-/*
- when a virtual function is defined in base class, then the pointer of the base class is also created
- now on the basis of object assigned, the respective class function is called. so this is called runtime
- polymorphism. 
-*/
+// A class that contains a pure virtual function is called the abstract class
+// pure virtual function has to define in derived class -- its compulsary
+// you cannot create object of abstract class -- so it is used as base class for other class
 class class_1
 {
 public:
     virtual void member_function() = 0; // pure virtual function
+    // do nothing function
 };
 
 class class_2 : public class_1
