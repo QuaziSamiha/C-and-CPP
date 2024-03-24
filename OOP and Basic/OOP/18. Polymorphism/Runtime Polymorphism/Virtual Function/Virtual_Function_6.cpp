@@ -1,5 +1,5 @@
-#include<iostream>  // (1:34am,23 May,2020 & 12:13pm,19 August,2020)
-
+#include<iostream> // (1:40am,23 May,2020 & 12:10pm,19 August,2020)
+// 24.03.24
 using namespace std;
 
 // Pure Virtual Function
@@ -30,17 +30,17 @@ public :
 
 int main()
 {
-//  super_class  object; it will show an error
+//  super_class object; // it will show an error
 
-    superclass  *pointer_1, *pointer_2;
+    superclass *pointer[2];
 
     subclass_1  ob1;
     subclass_2  ob2;
 
-    pointer_1 = &ob1;
-    pointer_2 = &ob2;
+    pointer[0] = &ob1;
+    pointer[1] = &ob2;
 
-    pointer_1 -> member_function();
-    pointer_2 -> member_function();
+    (pointer[1]) -> member_function();
+    (pointer[0]) -> member_function();
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
-
+// 13.03.24
+// 2nd ramadan
 using namespace std;
 
 int fun(int x, int y)

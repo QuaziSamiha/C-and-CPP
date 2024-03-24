@@ -1,4 +1,4 @@
-#include<iostream>  // (1:24am,23 May,2020 & 12:07pm,19 August,2020)
+#include<iostream>  // (1:34am,23 May,2020 & 12:13pm,19 August,2020)
 
 using namespace std;
 
@@ -31,15 +31,20 @@ public :
 int main()
 {
 //  super_class  object; it will show an error
-    superclass *pointer;
 
-    subclass_1  ob1;
-    subclass_2  ob2;
+    superclass *pointer_1, *pointer_2;
 
-    pointer = &ob1;
-    pointer -> member_function();
+    subclass_1 ob1;
+    subclass_2 ob2;
 
-    pointer = &ob2;
-    pointer -> member_function();
+    pointer_1 = &ob1;
+    pointer_2 = &ob2;
+
+    pointer_1 -> member_function();
+    pointer_2 -> member_function();
     return 0;
 }
+
+// output:
+// Sub-Class 1 
+// Sub-Class 2 

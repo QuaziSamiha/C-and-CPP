@@ -1,5 +1,4 @@
-// 01.03.24
-#include<iostream> // (1:40am,23 May,2020 & 11:46am,19 August,2020)
+#include<iostream> // (1:40am,23 May,2020 & 12:00pm,19 August,2020)
 
 using namespace std;
 
@@ -8,7 +7,7 @@ using namespace std;
 class superclass
 {
 public :
-    void member_function()
+    virtual void member_function()
     {
         cout<<"Base Class "<< endl;
     }
@@ -34,10 +33,10 @@ public :
 
 int main()
 {
-    superclass  *pointer; // we can create only superclass pointer
+    superclass *pointer; // we can create only superclass pointer
 
-    subclass_1  ob1;
-    subclass_2  ob2;
+    subclass_1 ob1;
+    subclass_2 ob2;
 
     pointer = &ob1;
     pointer -> member_function();
@@ -46,3 +45,9 @@ int main()
     pointer -> member_function();
     return 0;
 }
+
+/**
+ * output:
+ * Derived Class 1 
+ * Derived Class 2 
+*/

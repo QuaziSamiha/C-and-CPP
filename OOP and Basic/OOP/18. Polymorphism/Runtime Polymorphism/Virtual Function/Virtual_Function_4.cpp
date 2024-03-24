@@ -1,6 +1,5 @@
-// 01.03.24
-#include<iostream>  // (1:40am,23 May,2020 & 12:05pm,19 August,2020)
-
+#include<iostream>  // (1:24am,23 May,2020 & 12:07pm,19 August,2020)
+// 24.03.24
 using namespace std;
 
 // Pure Virtual Function
@@ -31,13 +30,22 @@ public :
 
 int main()
 {
-//  super_class object; it will show an error
-    subclass_1 object_1;
-    subclass_2 object_2;
+//  super_class  object; it will show an error
+    superclass *pointer;
 
-    object_1.member_function();
+    subclass_1  ob1;
+    subclass_2  ob2;
 
-    object_2.member_function();
+    pointer = &ob1;
+    pointer -> member_function();
 
+    pointer = &ob2;
+    pointer -> member_function();
     return 0;
 }
+
+/**
+output:
+Sub-Class 1 
+Sub-Class 2 
+*/

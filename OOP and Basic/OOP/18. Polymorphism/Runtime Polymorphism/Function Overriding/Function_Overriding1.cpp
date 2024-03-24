@@ -1,7 +1,13 @@
 #include<iostream>  // (11:39am,19 August,2020)
-
+// 24.03.24
 using namespace std;
-
+/*
+Function Overriding in C++
+A function is a block of statements that together performs a specific task by taking some input 
+and producing a particular output. Function overriding in C++ is termed as the redefinition of base class 
+function in its derived class with the same signature i.e. return type and parameters. It falls 
+under the category of Runtime Polymorphism.
+*/
 class class_1
 {
 public :

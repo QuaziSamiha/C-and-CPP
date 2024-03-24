@@ -1,4 +1,6 @@
-#include<iostream> // (1:40am,23 May,2020 & 12:00pm,19 August,2020)
+// 01.03.24
+// 24.03.24
+#include<iostream> // (1:40am,23 May,2020 & 11:46am,19 August,2020)
 
 using namespace std;
 
@@ -7,7 +9,7 @@ using namespace std;
 class superclass
 {
 public :
-    virtual void member_function()
+    void member_function()
     {
         cout<<"Base Class "<< endl;
     }
@@ -45,3 +47,7 @@ int main()
     pointer -> member_function();
     return 0;
 }
+
+// output: 
+// Base Class 
+// Base Class 
