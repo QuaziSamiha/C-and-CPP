@@ -6,7 +6,7 @@ using namespace std;
 
 class class_name
 {
-    int  member_function(int parameter)
+    int member_function(int parameter)
     {
         return parameter;
     }
@@ -17,7 +17,7 @@ public :
 
 int main()
 {
-    class_name  object;
+    class_name object;
 
     cout<< (object.*object.pointer_name) (14) <<endl;
 

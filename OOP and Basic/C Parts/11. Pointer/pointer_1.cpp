@@ -2,6 +2,7 @@
 // pointer is a variable that store\points the address of another variable
 // & symbol is used to get the address of the variable
 // * symbol is used to get the value of the variable that the pointer is pointing to
+
 #include<iostream>
 
 using namespace std;

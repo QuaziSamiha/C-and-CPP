@@ -22,12 +22,12 @@ public :
 
 int main()
 {
-    class_name  object;
-    class_name  *pointer_object;
+    class_name object;
+    class_name *pointer_object;
 
     pointer_object = &object; // initialization
 
-//  class_name  *pointer_object = &object; // another way
+//  class_name *pointer_object = &object; // another way
 
     // accessing members using pointer object using arrow operator
     pointer_object->data_member_2 = 11;

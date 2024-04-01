@@ -30,3 +30,10 @@ int main()
 
     return 0;
 }
+
+/*
+output:
+data_member : 24
+data_member : 12
+data_member : 32
+*/
