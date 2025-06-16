@@ -1,14 +1,15 @@
-#include<iostream> // adding two integers (8:47pm,15 August,2020)
+#include <iostream> // adding two integers (8:47pm,15 August,2020)
 
 using namespace std;
 
 class class_name
 {
     int m;
-public :
+
+public:
     void function_1(void);
     void function_2(void);
-    void function_3(class_name&, class_name&);
+    void function_3(class_name &, class_name &);
 };
 
 void class_name::function_1(void)
@@ -46,4 +47,3 @@ int main()
     cout << "sum : ";
     obj3.function_2(); // calling function for displaying addition
 }
-

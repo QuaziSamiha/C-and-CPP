@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -7,13 +7,14 @@ using namespace std;
 class class_name
 {
     int data_member;
-public :
-    class_name&  member_function_1(class_name  &object_1, class_name  &object_2)//Passing Object as Function Argument & Returning Object
+
+public:
+    class_name &member_function_1(class_name &object_1, class_name &object_2) // Passing Object as Function Argument & Returning Object
     {
         object_1.data_member = 87;
         object_2.data_member = 110;
 
-        if(object_1.data_member > object_2.data_member)
+        if (object_1.data_member > object_2.data_member)
         {
             return object_1;
         }
@@ -24,7 +25,7 @@ public :
     }
     void member_function_2()
     {
-        cout<< data_member <<endl;
+        cout << data_member << endl;
     }
 };
 
@@ -42,4 +43,3 @@ int main()
 
     return 0;
 }
-

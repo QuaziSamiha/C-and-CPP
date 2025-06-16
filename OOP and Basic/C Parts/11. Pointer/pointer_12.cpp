@@ -1,5 +1,5 @@
 // pointer as a return type of a user defined function
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -11,8 +11,8 @@ int main()
 
     pointer = function_name(); // calling function
 
-    cout<<"address of variable : "<< pointer <<endl;
-    cout<<"value of variable   : "<< *pointer <<endl;
+    cout << "address of variable : " << pointer << endl;
+    cout << "value of variable   : " << *pointer << endl;
 }
 
 float *function_name() // function definition

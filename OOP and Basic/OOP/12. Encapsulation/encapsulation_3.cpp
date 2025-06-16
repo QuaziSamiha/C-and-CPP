@@ -2,32 +2,39 @@
 #include <string>
 using namespace std;
 
-class Person {
+class Person
+{
 private:
     string name;
     int age;
 
 public:
-    string getName() {
+    string getName()
+    {
         return name;
     }
 
-    void setName(string newName) {
+    void setName(string newName)
+    {
         name = newName;
     }
 
-    int getAge() {
+    int getAge()
+    {
         return age;
     }
 
-    void setAge(int newAge) {
-        if (newAge >= 0 && newAge <= 120) {
+    void setAge(int newAge)
+    {
+        if (newAge >= 0 && newAge <= 120)
+        {
             age = newAge;
         }
     }
 };
 
-int main() {
+int main()
+{
     Person person;
     person.setName("Alice");
     person.setAge(30);

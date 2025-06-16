@@ -1,27 +1,28 @@
 // Fibonacci series using array
-#include<iostream>
-
+#include <iostream>
+// 07.09.24
 using namespace std;
 
 int main()
 {
     int a[100], n;
 
-    cout<<"Enter how many Fibonacci number : ";
-    cin>>n;
+    cout << "Enter how many Fibonacci number : ";
+    cin >> n;
 
     a[0] = 0;
     a[1] = 1;
 
-    for(int i = 2; i < n; i++)
+    for (int i = 2; i < n; i++)
     {
-        a[i] = a[i-1]+a[i-2];
+        a[i] = a[i - 1] + a[i - 2];
     }
 
-    cout<<endl<<"Fibonacci Series : ";
-    for(int i = 0; i < n; i++)
+    cout << endl
+         << "Fibonacci Series : ";
+    for (int i = 0; i < n; i++)
     {
-        cout<<a[i]<<"  ";
+        cout << a[i] << "  ";
     }
-    cout<<endl;
+    cout << endl;
 }

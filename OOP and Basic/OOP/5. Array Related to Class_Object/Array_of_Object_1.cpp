@@ -1,4 +1,4 @@
-#include<iostream> // (4:01pm,15 August,2020)
+#include <iostream> // (4:01pm,15 August,2020)
 #define SIZE 4
 
 using namespace std;
@@ -7,7 +7,7 @@ class class_name
 {
     int m;
     char a[20]; // character type array within class
-public :
+public:
     void function_1(void);
     void function_2(void);
 };
@@ -31,13 +31,14 @@ int main()
     class_name object[SIZE]; // array of object
 
     cout << "Enter data : " << endl;
-    for(int i = 0; i < SIZE; i++)
+    for (int i = 0; i < SIZE; i++)
     {
         object[i].function_1();
     }
 
-    cout << endl << "Entered Data : " << endl;
-    for(int i = 0; i < SIZE; i++)
+    cout << endl
+         << "Entered Data : " << endl;
+    for (int i = 0; i < SIZE; i++)
     {
         object[i].function_2();
     }

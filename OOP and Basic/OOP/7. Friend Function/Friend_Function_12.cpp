@@ -1,5 +1,8 @@
-// friend function call by reference  (11:53pm,5 May,2020 & 9:57pm,15 August,2020)
-#include<iostream>
+// friend function call by reference
+//? (11:53pm,5 May,2020 & 9:57pm,15 August,2020)
+//? (February & March & September, 2024)
+//? (16 June,2025)
+#include <iostream>
 
 using namespace std;
 
@@ -8,46 +11,46 @@ class class_2; // forward declaration
 class class_1 // declaring and defining class
 {
     int data_member_class_1; // private data member
-public :
+public:
     void member_function_1_class_1(); // declaring member function
     void member_function_2_class_1(); // declaring member function
 
-    friend void friend_function(class_1&, class_2&);  // declaring friend function
+    friend void friend_function(class_1 &, class_2 &); // declaring friend function
 };
 
 class class_2 // defining class
 {
     int data_member_class_2; // private data member
-public :
+public:
     void member_function_1_class_2(); // declaring member function
     void member_function_2_class_2(); // declaring member function
 
-    friend void friend_function(class_1&, class_2&);  // declaring friend function
+    friend void friend_function(class_1 &, class_2 &); // declaring friend function
 };
 
 inline void class_1::member_function_1_class_1() // defining member function of class_1
 {
-    cout<<"Enter an integer for class_1: ";
-    cin>>data_member_class_1;
+    cout << "Enter an integer for class_1: ";
+    cin >> data_member_class_1;
 }
 
 inline void class_1::member_function_2_class_1() // defining member function of class_1
 {
-    cout<<"class_1 integer : "<<data_member_class_1<<endl;
+    cout << "class_1 integer : " << data_member_class_1 << endl;
 }
 
 inline void class_2::member_function_1_class_2() // defining member function of class_2
 {
-    cout<<"Enter an integer for class_2: ";
-    cin>>data_member_class_2;
+    cout << "Enter an integer for class_2: ";
+    cin >> data_member_class_2;
 }
 
 inline void class_2::member_function_2_class_2() // defining member function class_2
 {
-    cout<<"class_2 integer : "<<data_member_class_2<<endl;
+    cout << "class_2 integer : " << data_member_class_2 << endl;
 }
 
-void friend_function(class_1 &object_one, class_2 &object_two)//defining friend function which is common for both class
+void friend_function(class_1 &object_one, class_2 &object_two) // defining friend function which is common for both class
 {
     int v; // declaring v = local variable of friend function
 
@@ -64,13 +67,15 @@ int main()
     object_1.member_function_1_class_1(); // calling member function of class_1
     object_2.member_function_1_class_2(); // calling member function of class_2
 
-    cout<<endl<<"Before Swapping : "<<endl;
+    cout << endl
+         << "Before Swapping : " << endl;
     object_1.member_function_2_class_1(); // calling member function of class class_1
     object_2.member_function_2_class_2(); // calling member function of class class_2
 
     friend_function(object_1, object_2); // calling friend function and passing object
 
-    cout<<endl<<"After Swapping : "<<endl;
+    cout << endl
+         << "After Swapping : " << endl;
     object_1.member_function_2_class_1(); // calling member function of class class_1
     object_2.member_function_2_class_2(); // calling member function of class class_2
     return 0;

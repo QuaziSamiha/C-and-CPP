@@ -6,12 +6,14 @@ using namespace std;
 int main()
 {
     int n = 13, first = 0, second = 1, febo = 0;
-    
-    while(febo <= 13){
-        cout << febo << "\t" ;
+
+    while (febo <= 13)
+    {
+        cout << febo << "\t";
         febo = first + second;
         first = second;
         second = febo;
     }
     return 0;
 }
+//

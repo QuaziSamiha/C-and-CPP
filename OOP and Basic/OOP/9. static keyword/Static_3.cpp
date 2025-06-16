@@ -1,5 +1,5 @@
 // static member function                  (12:57am,7 May,2020 & 6:57pm,16August,2020)
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -9,7 +9,7 @@ using namespace std;
 class class_name
 {
     static int data_member; // static private data member
-public :
+public:
     static void static_member_function(void); // declaring static member function
 };
 
@@ -17,19 +17,19 @@ int class_name::data_member; // defining static data member
 
 void class_name::static_member_function() // defining static member function outside class
 {
-    cout<<"static data member : "<<data_member<<endl;
+    cout << "static data member : " << data_member << endl;
 }
 
 int main()
 {
     class_name::static_member_function(); // calling static member function and it will show that static data member = 0
-    //we use class name and scope-resolution operator for calling static member function instead of object and dot operator
+    // we use class name and scope-resolution operator for calling static member function instead of object and dot operator
     return 0;
 }
 
 /*
 Static functions in a class: Just like the static data members or static variables inside the class, static member functions also
-does not depend on object of class. We are allowed to invoke a static member function using the object and the ‘.’ operator but it
+does not depend on object of class. We are allowed to invoke a static member function using the object and the (.) dot operator but it
 is recommended to invoke the static members using the class name and the scope resolution operator.
 Static member functions are allowed to access only the static data members or other static member functions, they can not
 access the non-static data members or member functions of the class.

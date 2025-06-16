@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,8 +10,9 @@ class class_name
     {
         return parameter;
     }
-public :
-    int (class_name::*pointer_name) (int) = &class_name :: member_function; // pointers to member functions
+
+public:
+    int (class_name::*pointer_name)(int) = &class_name ::member_function; // pointers to member functions
     // we are passing the address of member_function to the pointer_name
 };
 
@@ -19,7 +20,7 @@ int main()
 {
     class_name object;
 
-    cout<< (object.*object.pointer_name) (14) <<endl;
+    cout << (object.*object.pointer_name)(14) << endl;
 
     return 0;
 }

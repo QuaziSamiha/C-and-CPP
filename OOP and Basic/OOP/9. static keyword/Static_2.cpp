@@ -1,5 +1,5 @@
 // declaring and defining and initializing static data member  (7 May,2020 & 6:37pm,16August,2020)
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -8,7 +8,7 @@ using namespace std;
 class class_name
 {
     static int data_member; // private data member
-public :
+public:
     void member_function(void); // member function
 };
 
@@ -17,17 +17,17 @@ int class_name::data_member = 12; // defining and initializing static data membe
 
 inline void class_name::member_function(void) // member function
 {
-    cout<<"static data_member : "<<data_member<<endl;
+    cout << "static data_member : " << data_member << endl;
 }
 
 int main()
 {
-    class_name  object_1, object_2, object_3;
+    class_name object_1, object_2, object_3;
 
     object_1.member_function();
     object_2.member_function();
     object_3.member_function();
 
-    cout<<endl;
+    cout << endl;
     return 0;
 }

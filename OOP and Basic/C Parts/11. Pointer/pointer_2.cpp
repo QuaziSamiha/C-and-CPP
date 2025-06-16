@@ -1,5 +1,5 @@
 // pointer pointing to different variable
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,13 +10,13 @@ int main()
     int *pointer_variable;
 
     pointer_variable = &variable_1;
-    cout<<"variable_1 : "<< *pointer_variable <<endl;
+    cout << "variable_1 : " << *pointer_variable << endl;
 
     pointer_variable = &variable_2;
-    cout<<"variable_2 : "<< *pointer_variable <<endl;
+    cout << "variable_2 : " << *pointer_variable << endl;
 
     pointer_variable = &variable_3;
-    cout<<"variable_3 : "<< *pointer_variable <<endl;
+    cout << "variable_3 : " << *pointer_variable << endl;
 }
 
 /*

@@ -94,11 +94,11 @@ int main()
 }
 /*
 1. Data Protection: The internal state of the `Car` class(make, model, year, speed, and fuel level) is kept private within the class,
-using the `private` access modifier.Access to these attributes is restricted to the class's public methods (`getMake`, `getModel`, 
+using the `private` access modifier.Access to these attributes is restricted to the class's public methods (`getMake`, `getModel`,
 `getYear`, `getSpeed`, `getFuelLevel`, `accelerate`, `brake`), ensuring controlled and secure data manipulation.
 
-2. Information Hiding: External code can only interact with the `Car` object through its public interface(methods like `getMake`, 
+2. Information Hiding: External code can only interact with the `Car` object through its public interface(methods like `getMake`,
 `getModel`, `accelerate`, `brake`, etc.),
-without knowing the internal implementation details(like how speed or fuel level is managed).This provides abstraction and simplifies 
+without knowing the internal implementation details(like how speed or fuel level is managed).This provides abstraction and simplifies
 the usage of the `Car` class while allowing its internal implementation to be modified without affecting the external code.
 */

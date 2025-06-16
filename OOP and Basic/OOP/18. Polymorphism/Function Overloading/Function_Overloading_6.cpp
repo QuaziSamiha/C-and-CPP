@@ -1,5 +1,5 @@
 // Function Overloading Ambiguous   (1:24am,17 May,2020 & 10:26am,19 August,2020)
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -16,12 +16,10 @@ int main()
 
 void function_overloading(float parameter)
 {
-    cout<<"float : "<<parameter<<endl;
+    cout << "float : " << parameter << endl;
 }
 
 void function_overloading(unsigned int parameter)
 {
-    cout<<"unsigned integer : "<<parameter<<endl;
+    cout << "unsigned integer : " << parameter << endl;
 }
-
-

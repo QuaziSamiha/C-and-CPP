@@ -1,5 +1,5 @@
 #include <iostream>
-// first nth fibonacci seried
+// first nth fibonacci series
 using namespace std;
 
 int main()

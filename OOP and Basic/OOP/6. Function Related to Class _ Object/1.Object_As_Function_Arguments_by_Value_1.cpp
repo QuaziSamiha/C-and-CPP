@@ -1,11 +1,12 @@
-#include<iostream> // adding two integers (4:23pm,15 August,2020)
+#include <iostream> // adding two integers (4:23pm,15 August,2020)
 
 using namespace std;
 
 class class_name
 {
     int m;
-public :
+
+public:
     void function_1(void);
     void function_2(void);
     void function_3(class_name, class_name);

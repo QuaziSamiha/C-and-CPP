@@ -6,40 +6,51 @@ that the balance cannot go negative.
 #include <iostream>
 using namespace std;
 
-class BankAccount {
+class BankAccount
+{
 private:
     double balance;
     int accountNumber;
 
 public:
     // constructor
-    BankAccount(int accNum, double initialBalance) {
+    BankAccount(int accNum, double initialBalance)
+    {
         accountNumber = accNum;
-        if (initialBalance >= 0) {
+        if (initialBalance >= 0)
+        {
             balance = initialBalance;
-        } else {
+        }
+        else
+        {
             balance = 0;
         }
     }
 
-    void deposit(double amount) {
-        if (amount > 0) {
+    void deposit(double amount)
+    {
+        if (amount > 0)
+        {
             balance += amount;
         }
     }
 
-    void withdraw(double amount) {
-        if (amount > 0 && balance >= amount) {
+    void withdraw(double amount)
+    {
+        if (amount > 0 && balance >= amount)
+        {
             balance -= amount;
         }
     }
 
-    double getBalance() {
+    double getBalance()
+    {
         return balance;
     }
 };
 
-int main() {
+int main()
+{
     BankAccount account(12345, 1000.0);
     account.deposit(500.0);
     account.withdraw(200.0);
@@ -48,4 +59,3 @@ int main() {
 
     return 0;
 }
-

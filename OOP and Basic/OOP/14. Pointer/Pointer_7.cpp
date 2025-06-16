@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//
 class class_name
 {
     int data_member;

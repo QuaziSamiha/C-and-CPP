@@ -1,7 +1,6 @@
 // Binary Operator Overloading
 // (12:34am,20 May,2020 & 11:00am,19 August,2020)
 #include <iostream>
-
 using namespace std;
 
 class class_name

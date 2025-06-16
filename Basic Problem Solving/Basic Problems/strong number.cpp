@@ -1,7 +1,6 @@
 // strong number
 // 145 = 1! + 4! + 5! = 1 + 24 + 120 = 145
 #include <iostream>
-
 using namespace std;
 
 int main()

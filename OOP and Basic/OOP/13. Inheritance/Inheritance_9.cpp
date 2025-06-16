@@ -1,39 +1,42 @@
 // Ambiguity Resolution in Inheritance   (2:12am,14 May,2020 & 7:55am,19 August,2020)
 // same function name in two or more classes
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 class class_1
 {
-protected :
+protected:
     int m_class_1 = 13;
-public :
+
+public:
     void member_function(void)
     {
-        cout<<"data_member_class_1 : "<<m_class_1<<endl;
+        cout << "data_member_class_1 : " << m_class_1 << endl;
     }
 };
 
 class class_2
 {
-protected :
+protected:
     int m_class_2 = 23;
-public :
+
+public:
     void member_function(void)
     {
-        cout<<"data_member_class_2 : "<<m_class_2<<endl;
+        cout << "data_member_class_2 : " << m_class_2 << endl;
     }
 };
 
 class class_3 : public class_1, public class_2
 {
     int m_class_3;
-public :
+
+public:
     void member_function_class_3(void)
     {
         m_class_3 = m_class_1 + m_class_2;
-        cout<<"data_member_class_3 : "<<m_class_3<<endl;
+        cout << "data_member_class_3 : " << m_class_3 << endl;
     }
 };
 

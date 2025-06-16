@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-// total no of invokation = 2f(n+1) - 1
+// total no of invocation = 2f(n+1) - 1
 // total no of addition = f(n+1) - 1
 int fibonacci(int n)
 {

@@ -1,5 +1,5 @@
 // Function Overloading in Terms of Numbers of Arguments  (11:46pm,16 May,2020 & 10:17am,19 August,2020)
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -9,9 +9,9 @@ int function_overloading(int, int, int);
 
 int main()
 {
-    cout<<"integer                     : "<<function_overloading(10)<<endl;
-    cout<<"integer + integer           : "<<function_overloading(12,21)<<endl;
-    cout<<"integer + integer + integer : "<<function_overloading(12,32,42)<<endl;
+    cout << "integer                     : " << function_overloading(10) << endl;
+    cout << "integer + integer           : " << function_overloading(12, 21) << endl;
+    cout << "integer + integer + integer : " << function_overloading(12, 32, 42) << endl;
     return 0;
 }
 

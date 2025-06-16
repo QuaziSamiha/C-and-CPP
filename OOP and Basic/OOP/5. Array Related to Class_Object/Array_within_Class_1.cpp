@@ -1,4 +1,4 @@
-#include<iostream> // (3:31pm,15 August,2020)
+#include <iostream> // (3:31pm,15 August,2020)
 #define SIZE 4
 
 using namespace std;
@@ -14,7 +14,7 @@ public:
 void class_name::function_1(void)
 {
     cout << "Enter " << SIZE << " integers as array elements : ";
-    for(int i = 0; i < SIZE; i++)
+    for (int i = 0; i < SIZE; i++)
     {
         cin >> array_name[i];
     }
@@ -22,10 +22,11 @@ void class_name::function_1(void)
 
 void class_name::function_2(void)
 {
-    cout << endl << "Array elements : " << endl;
-    for(int i = 0; i < SIZE; i++)
+    cout << endl
+         << "Array elements : " << endl;
+    for (int i = 0; i < SIZE; i++)
     {
-        cout << "array_name[" << i+1 << "] : " << array_name[i] << endl;
+        cout << "array_name[" << i + 1 << "] : " << array_name[i] << endl;
     }
 }
 

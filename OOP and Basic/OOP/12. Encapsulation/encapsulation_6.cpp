@@ -34,11 +34,11 @@ together which is nothing but encapsulation.
 
 /*
 Features of Encapsulation:
-1. We can not access any function from the class directly. We need an object to access that function 
+1. We can not access any function from the class directly. We need an object to access that function
 that is using the member variables of that class.
-2. The function which we are making inside the class must use only member variables, only then 
+2. The function which we are making inside the class must use only member variables, only then
 it is called encapsulation.
-3. If we don’t make a function inside the class which is using the member variable of the class then 
+3. If we don’t make a function inside the class which is using the member variable of the class then
 we don’t call it encapsulation.
 4. Encapsulation improves readability, maintainability, and security by grouping data and methods together.
 5. It helps to control the modification of our data members.

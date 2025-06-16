@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -11,7 +10,7 @@ int main()
 
     result = 0;
     quotient = number;
-    
+
     while (quotient != 0)
     {
         remainder = quotient % 10;

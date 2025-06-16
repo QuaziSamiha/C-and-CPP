@@ -1,5 +1,5 @@
 // pointer as parameter of user defined function
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -17,15 +17,16 @@ int main()
 {
     int variable_1 = 23, variable_2 = 70;
 
-    cout<<"Before sapping : "<<endl;
-    cout<<"variable_1 : "<<variable_1<<endl;
-    cout<<"variable_2 : "<<variable_2<<endl;
+    cout << "Before swapping : " << endl;
+    cout << "variable_1 : " << variable_1 << endl;
+    cout << "variable_2 : " << variable_2 << endl;
 
     function_name(&variable_1, &variable_2); // calling user defined function and passing address
 
-    cout<<endl<<"After sapping : "<<endl;
-    cout<<"variable_1 : "<<variable_1<<endl;
-    cout<<"variable_2 : "<<variable_2<<endl;
+    cout << endl
+         << "After swapping : " << endl;
+    cout << "variable_1 : " << variable_1 << endl;
+    cout << "variable_2 : " << variable_2 << endl;
 
     return 0;
 }

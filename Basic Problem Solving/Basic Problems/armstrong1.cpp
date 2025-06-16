@@ -1,6 +1,5 @@
 // 371 order of this number is 3, and it is a armstrong number because 3 * 3 * 3 + 7 * 7 * 7 + 1 * 1 * 1 = 371;
 #include <iostream>
-
 using namespace std;
 
 int main()

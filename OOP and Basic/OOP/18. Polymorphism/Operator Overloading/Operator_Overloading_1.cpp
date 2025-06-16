@@ -1,14 +1,15 @@
-// Unary Operator Overloading    
+// Unary Operator Overloading
 // (11:57pm,19 May,2020 & 10:36am,19 August,2020)
 // 3 March, 2024
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 class class_name
 {
     int m1, m2;
-public :
+
+public:
     class_name()
     {
         // default constructor
@@ -22,8 +23,8 @@ public :
     void member_function()
     {
         cout << endl;
-        cout << " data_member_1 : " << m1 <<endl;
-        cout << " data_member_2 : " << m2 <<endl;
+        cout << " data_member_1 : " << m1 << endl;
+        cout << " data_member_2 : " << m2 << endl;
     }
 };
 
@@ -35,24 +36,24 @@ void class_name::operator-()
 
 int main()
 {
-    class_name object_one(11,34);
+    class_name object_one(11, 34);
 
-    cout<<"Before : "<<endl;
+    cout << "Before : " << endl;
     object_one.member_function();
 
     -object_one; // calling unary operator overloading
 
-    cout<<"After : ";
+    cout << "After : ";
     object_one.member_function();
 
-    class_name object_two(12,-30);
+    class_name object_two(12, -30);
 
-    cout<<"Before : "<<endl;
+    cout << "Before : " << endl;
     object_two.member_function();
 
-    - object_two; // calling unary operator overloading
+    -object_two; // calling unary operator overloading
 
-    cout<<"After : ";
+    cout << "After : ";
     object_two.member_function();
 
     return 0;

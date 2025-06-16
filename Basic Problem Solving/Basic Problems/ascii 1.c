@@ -1,8 +1,10 @@
 // convert ASCII value to Character
 // 15.02.24
-#include<stdio.h>
+// 07.09.24
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int n;
     printf("Enter any ASCII value: ");
     scanf("%d", &n);
@@ -10,16 +12,15 @@ int main(){
     return 0;
 }
 
-
 // capital A = ascii value 65
 // small a = ascii value 97
 
 /*
-ASCII stands for American Standard Code for Information Interchange. It's a character encoding standard 
-for electronic communication. In ASCII, each character is represented by a 7-bit binary number (0 to 127), 
-which corresponds to a particular symbol or character. For example, the ASCII value for the letter 'A' is 65, 
+ASCII stands for American Standard Code for Information Interchange. It's a character encoding standard
+for electronic communication. In ASCII, each character is represented by a 7-bit binary number (0 to 127),
+which corresponds to a particular symbol or character. For example, the ASCII value for the letter 'A' is 65,
 'B' is 66, and so on.
-However, with extended ASCII, which uses 8 bits (0 to 255), more characters can be represented, including 
+However, with extended ASCII, which uses 8 bits (0 to 255), more characters can be represented, including
 special characters, symbols, and accented letters.
 
 Here's a basic example of ASCII values for some common characters:

@@ -1,16 +1,17 @@
-#include<iostream>  // (11:39am,19 August,2020)
+#include <iostream> // (11:39am,19 August,2020)
 // 24.03.24
+// 07.09.24
 using namespace std;
 /*
 Function Overriding in C++
-A function is a block of statements that together performs a specific task by taking some input 
-and producing a particular output. Function overriding in C++ is termed as the redefinition of base class 
-function in its derived class with the same signature i.e. return type and parameters. It falls 
+A function is a block of statements that together performs a specific task by taking some input
+and producing a particular output. Function overriding in C++ is termed as the redefinition of base class
+function in its derived class with the same signature i.e. return type and parameters. It falls
 under the category of Runtime Polymorphism.
 */
 class class_1
 {
-public :
+public:
     void member_function(void) // overridden function
     {
         cout << "class_1" << endl;
@@ -19,7 +20,7 @@ public :
 
 class class_2 : public class_1
 {
-public :
+public:
     void member_function(void) // override function
     {
         cout << "class_2" << endl;

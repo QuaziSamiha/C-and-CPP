@@ -1,5 +1,5 @@
 #include <iostream>
-
+//
 using namespace std;
 
 int main()
@@ -8,9 +8,9 @@ int main()
 
     cout << "Enter a number: ";
     cin >> n;
-    
+
     q = n;
-    
+
     while (q != 0)
     {
         q = q / 10;

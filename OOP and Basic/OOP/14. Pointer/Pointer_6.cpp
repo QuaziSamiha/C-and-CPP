@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -7,7 +7,8 @@ using namespace std;
 class class_name
 {
     int data_member_1;
-public :
+
+public:
     int data_member_2;
     void member_function_1(int parameter)
     {
@@ -15,8 +16,8 @@ public :
     }
     void member_function_2()
     {
-        cout<<"data_member_1 : "<< data_member_1<<endl;
-        cout<<"data_member_2 : "<< data_member_2<<endl;
+        cout << "data_member_1 : " << data_member_1 << endl;
+        cout << "data_member_2 : " << data_member_2 << endl;
     }
 };
 
@@ -27,7 +28,7 @@ int main()
 
     pointer_object = &object; // initialization
 
-//  class_name *pointer_object = &object; // another way
+    //  class_name *pointer_object = &object; // another way
 
     // accessing members using pointer object using arrow operator
     pointer_object->data_member_2 = 11;

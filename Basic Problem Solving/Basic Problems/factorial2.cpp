@@ -1,7 +1,8 @@
 #include <iostream>
 
 using namespace std;
-
+// using
+// recursion
 int fact(int n)
 {
     if (n == 0)
