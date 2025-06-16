@@ -1,4 +1,6 @@
 // the use of static variables in a Function
+//? 2020
+//? (16 June,2025)
 #include <iostream>
 
 using namespace std;
@@ -20,7 +22,7 @@ void func()
 
 int main()
 {
-    for (int i=0; i<5; i++)
+    for (int i = 0; i < 5; i++)
     {
         func();
     }
