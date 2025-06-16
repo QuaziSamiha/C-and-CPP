@@ -1,4 +1,8 @@
-// declaring and defining and initializing static data member  (7 May,2020 & 6:37pm,16August,2020)
+
+// declaring and defining static data member
+//? (7 May,2020 & 5:30pm,16August,2020)
+//? (February & March & September, 2024)
+//? (17 June,2025)
 #include <iostream>
 
 using namespace std;
@@ -9,25 +13,69 @@ class class_name
 {
     static int data_member; // private data member
 public:
-    void member_function(void); // member function
+    void function_1(void); // declaring member function
+    void function_2(void); // declaring member function
 };
 
 // static data member has to define outside of the class
-int class_name::data_member = 12; // defining and initializing static data member
+int class_name::data_member; // defining static data member
 
-inline void class_name::member_function(void) // member function
+void class_name::function_1() // defining member function
 {
-    cout << "static data_member : " << data_member << endl;
+    cout << "Enter an integer : ";
+    cin >> data_member;
+}
+
+void class_name::function_2(void) // defining member function
+{
+    cout << "\nstatic data_member : " << data_member;
 }
 
 int main()
 {
     class_name object_1, object_2, object_3;
 
-    object_1.member_function();
-    object_2.member_function();
-    object_3.member_function();
+    cout << "static data member is initialized zero by default : ";
+    object_1.function_2();
+    object_2.function_2();
+    object_3.function_2();
+
+    cout << endl
+         << endl;
+
+    // calling member function to take input for initializing static data member through object
+    object_1.function_1();
+    object_2.function_1();
+    object_3.function_1();
+    cout << endl
+         << "After initializing : ";
+    object_1.function_2();
+    object_2.function_2();
+    object_3.function_2();
 
     cout << endl;
     return 0;
 }
+
+/**
+ * sample output:
+static data member is initialized zero by default :
+static data_member : 0
+static data_member : 0
+static data_member : 0
+
+Enter an integer : 2
+Enter an integer : 6
+Enter an integer : 89
+
+After initializing :
+static data_member : 89
+static data_member : 89
+static data_member : 89
+ */
+
+/*
+Static variables in a class: As the variables declared as static are initialized only once as they are allocated space
+in separate static storage so, the static variables in a class are shared by the objects. There can not be multiple copies of
+same static variables for different objects. Also because of this reason static variables can not be initialized using constructors.
+*/

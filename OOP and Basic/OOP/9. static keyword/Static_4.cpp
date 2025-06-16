@@ -1,4 +1,7 @@
-// static member function  //(12:57am,7 May,2020 & 7:10pm,16 August,2020)
+// static member function
+//? (12:57am,7 May,2020 & 7:10pm,16 August,2020)
+//? (February & March & September, 2024)
+//? (17 June,2025)
 #include <iostream>
 // #include<conio.h>
 
@@ -54,3 +57,14 @@ int main()
     ob3.function_2();
     return 0;
 }
+
+/**
+ * output:
+static data member : 0
+static data member : 2
+static data member : 3
+
+non-static data member : 1
+non-static data member : 2
+non-static data member : 3
+ */

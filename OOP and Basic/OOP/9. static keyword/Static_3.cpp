@@ -1,4 +1,7 @@
-// static member function                  (12:57am,7 May,2020 & 6:57pm,16August,2020)
+// static member function
+//? (12:57am,7 May,2020 & 6:57pm,16August,2020)
+//? (February & March & September, 2024)
+//? (17 June,2025)
 #include <iostream>
 
 using namespace std;
@@ -26,6 +29,11 @@ int main()
     // we use class name and scope-resolution operator for calling static member function instead of object and dot operator
     return 0;
 }
+
+/**
+ * output:
+ * static data member : 0
+ */
 
 /*
 Static functions in a class: Just like the static data members or static variables inside the class, static member functions also
