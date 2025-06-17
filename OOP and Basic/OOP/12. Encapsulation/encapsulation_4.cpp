@@ -1,5 +1,5 @@
 /*
-Problem: Implement a class BankAccount with private
+Problem In Interview : Implement a class BankAccount with private
 attributes for balance and account number. Ensure
 that the balance cannot go negative.
 */

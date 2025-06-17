@@ -1,22 +1,25 @@
-// constructor can be defined outside the class (10:40pm,9 May,2020 & 10:21pm,16 August,2020)
-#include<iostream>
+// constructor can be defined outside the class
+//? (10:40pm,9 May,2020 & 10:21pm,16 August,2020)
+//? 29 August, 2024
+//? 17 June, 2025
+#include <iostream>
 
 using namespace std;
-
 class class_name
 {
-private :
+private:
     int data_member_1, data_member_2;
-public :
+
+public:
     class_name(); // declaration of constructor member function
 };
 
 class_name::class_name() // constructor member function is defined outside the class
 {
-    data_member_1 = 12;  //constructor value initialized
-    data_member_2 = 115; //constructor value initialized
-    cout<<"data_member_1 : "<<data_member_1<<endl;
-    cout<<"data_member_2 : "<<data_member_2<<endl;
+    data_member_1 = 12;  // constructor value initialized
+    data_member_2 = 115; // constructor value initialized
+    cout << "data_member_1 : " << data_member_1 << endl;
+    cout << "data_member_2 : " << data_member_2 << endl;
 }
 
 int main()

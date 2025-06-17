@@ -1,5 +1,7 @@
-#include <iostream> // (10:41pm,9 May,2020 & 9:42pm,16 August,2020)
-// 29 August, 2024
+#include <iostream>
+//? (10:41pm,9 May,2020 & 9:42pm,16 August,2020)
+//? 29 August, 2024
+//? 1:04 am, 17 June, 2025
 using namespace std;
 
 /*
@@ -35,3 +37,9 @@ int main()
     object.member_function(); // calling member function
     return 0;
 }
+
+/**
+ * Output:
+constructor
+member_function
+*/

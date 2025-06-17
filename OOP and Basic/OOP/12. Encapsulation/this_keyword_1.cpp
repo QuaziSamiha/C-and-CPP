@@ -1,6 +1,6 @@
 // 01.03.24
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -13,9 +13,10 @@ class that is known as data hiding.
 
 class class_name
 {
-private :
+private:
     string m;
-public :
+
+public:
     void setM(string m)
     {
         this->m = m;
@@ -31,6 +32,6 @@ int main()
     class_name ob;
 
     ob.setM("17 August,2020");
+    // ob.setM("17 June,2025");
     cout << ob.getM() << endl;
 }
-

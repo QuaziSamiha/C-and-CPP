@@ -1,4 +1,7 @@
-#include<iostream>  // (10:40pm,9 May,2020 & 10:14pm,16 August,2020)
+#include <iostream>
+//? (10:40pm,9 May,2020 & 10:14pm,16 August,2020)
+//? 29 August, 2024
+//? 17 June, 2025
 
 using namespace std;
 
@@ -6,10 +9,10 @@ using namespace std;
 
 class class_name
 {
-public :
+public:
     class_name() // declaring and defining constructor
     {
-        cout<<"constructor"<<endl;
+        cout << "constructor" << endl;
     }
 };
 
