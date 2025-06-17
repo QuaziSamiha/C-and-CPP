@@ -1,4 +1,7 @@
-// Single inheritance and public visibility mode   (11:13pm,12 May,2020 & 11:35am,17 August,2020)
+// Single inheritance and public visibility mode
+//? (11:13pm,12 May,2020 & 11:35am,17 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 
 using namespace std;
@@ -13,7 +16,7 @@ public:
     void function_superclass(void); // it will be public in derived class since visibility mode public
 };
 
-class subclass : public superclass // here visibility mode is protected
+class subclass : public superclass // here visibility mode is public
 {
     int m1_subclass; // private data member of subclass
 public:

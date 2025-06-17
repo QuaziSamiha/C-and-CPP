@@ -1,4 +1,7 @@
-// Constructor in Derived Class with Multilevel Inheritance  (5:45pm,16 May,2020 & 9:12am,19 August,2020)
+// Constructor in Derived Class with Multilevel Inheritance
+//? (5:45pm,16 May,2020 & 9:12am,19 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 
 using namespace std;
@@ -29,7 +32,7 @@ public:
     }
 };
 
-class class_3 : virtual public class_2
+class class_3 : public class_2
 {
 protected:
     int m_class_3;
@@ -56,3 +59,17 @@ int main()
     object.member_function_class_3();
     return 0;
 }
+
+/**
+ * output:
+
+Constructor class_1 Initialized
+Constructor class_2 Initialized
+Constructor class_3 Initialized
+
+data_member_class_1 : 10
+data_member_class_2 : 11
+data_member_class_3 : 12
+
+
+ */

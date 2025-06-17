@@ -1,4 +1,7 @@
-// Virtual Base Class     (2:04am,16 May,2020 & 7:57am,19 August,2020)
+// Virtual Base Class
+//? (2:04am,16 May,2020 & 7:57am,19 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 #include <string>
 
@@ -56,3 +59,11 @@ int main()
     object.function_subclass_3();
     return 0;
 }
+
+/**
+ * output:
+data_member_subclass_1 : 15
+data_member_sub_class_2 : 10
+String : C++ Programming
+data_member_subclass_3 : 25
+*/

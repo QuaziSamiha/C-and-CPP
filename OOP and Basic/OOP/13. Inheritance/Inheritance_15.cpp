@@ -1,4 +1,7 @@
-// Initialization List in Constructor   (9:50pm,16 May,2020 & 9:16am,19 August,2020)
+// Initialization List in Constructor
+//? (9:50pm,16 May,2020 & 9:16am,19 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 
 using namespace std;
@@ -63,3 +66,17 @@ int main()
     object.member_function_class_2();
     object.member_function_class_3();
 }
+
+/**
+output:
+
+Constructor class_2 Initialized
+Constructor class_1 Initialized
+Constructor class_3 Initialized
+
+data_member_class_1 : 10
+data_member_1_class_2 : 20
+data_member_2_class_2 : 30
+data_member_1_class_3 : 40
+data_member_2_class_3 : 50
+ */

@@ -1,4 +1,7 @@
-// Destructor in Derived Class   (10:53pm,16 May,2020 & 10:01am,19 August,2020)
+// Destructor in Derived Class
+//? (10:53pm,16 May,2020 & 10:01am,19 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 
 using namespace std;
@@ -39,7 +42,7 @@ public:
     }
 };
 
-class class_3 : public class_2, virtual public class_1
+class class_3 : public class_2, virtual public class_1 //! this order and virtual keyword is most important both for constructor and destructor
 {
     int data_member_1_class_3, data_member_2_class_3;
 
@@ -75,3 +78,22 @@ int main()
 
     return 0;
 }
+
+/*
+Output:
+
+Constructor class_1
+Constructor class_2
+Constructor class_3
+
+data_member_1_class_1 : 10
+data_member_2_class_1 : 20
+data_member_1_class_2 : 30
+data_member_2_class_2 : 40
+data_member_1_class_3 : 50
+data_member_2_class_3 : 60
+
+Destructor Class_3
+Destructor Class_2
+Destructor Class_1
+*/

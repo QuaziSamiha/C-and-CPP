@@ -1,4 +1,7 @@
-// Multiple Inheritance's Constructor in Derived Class               (3:51pm,16 May,2020 & 8:35am,19 August,2020)
+// Multiple Inheritance's Constructor in Derived Class
+//? (3:51pm,16 May,2020 & 8:35am,19 August,2020)
+//? February, March, August, September, 2024
+//? 17 June, 2025
 #include <iostream>
 
 using namespace std;
@@ -45,7 +48,9 @@ public:
     }
 };
 
-class subclass : public superclass_2, public superclass_1 // constructor will initialized in this sequence
+//! here order is important
+class subclass : public superclass_2, public superclass_1 //! constructor will initialized in this sequence
+// ! at first superclass_2's constructor will be called then superclass_1's constructor will be called
 {
     int m1_subclass, m2_subclass;
 
@@ -74,3 +79,20 @@ int main()
     object.function_subclass();
     return 0;
 }
+
+/**
+ * Constructor Super Class 2
+Constructor Super Class 1
+Constructor Sub Class
+
+data_member_1_super_class_1 : 10
+data_member_2_super_class_1 : 12
+
+data_member_1_super_class_2 : 20
+data_member_2_super_class_2 : 22
+
+data_member_1_sub_class : 30
+data_member_2_sub_class : 32
+
+
+ */
