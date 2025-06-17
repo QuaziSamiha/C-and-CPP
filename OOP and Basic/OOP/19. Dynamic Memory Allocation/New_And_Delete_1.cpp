@@ -1,6 +1,7 @@
 #include <iostream>
-// 08.03.24
-// 06.09.24
+//? 08.03.24
+//? 06.09.24
+//? 17.06.25
 using namespace std;
 
 // Dynamic Memory Allocation in One D Array
@@ -32,3 +33,20 @@ int main()
 
     return 0;
 }
+
+/*
+Output:
+Enter how many elements : 8
+
+Enter elements : 6
+3
+9
+2
+7
+3
+7
+
+Elements are : 	 6	 3	 9	 2	 7	 5	 8	 40
+Total of array elements : 80
+
+*/
