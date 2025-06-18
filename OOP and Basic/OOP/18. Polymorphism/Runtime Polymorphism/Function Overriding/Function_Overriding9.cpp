@@ -1,12 +1,13 @@
 #include <iostream>
-// 24.03.24
+//? 24.03.24
+//? 18 June, 2025
 using namespace std;
-// late binding --> occuring at run time
+// late binding --> occurring at run time
 // a virtual function is redefined in derived class
 /*
  when a virtual function is defined in base class, then the pointer of the base class is also created
  now on the basis of object assigned, the respective class function is called. so this is called runtime
- polymorphism. 
+ polymorphism.
 */
 class class_1
 {

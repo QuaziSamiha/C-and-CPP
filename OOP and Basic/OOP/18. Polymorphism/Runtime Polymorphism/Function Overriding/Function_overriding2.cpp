@@ -19,15 +19,14 @@ public:
 // Driver code
 int main(void)
 {
-    Animal d = Dog(); // accessing the field by reference
-                      // variable which refers to derived
-    cout << d.color;
+    Animal d = Dog(); // accessing the field by reference variable which refers to derived
+    cout << d.color;  //? Output: Black
 }
 
 /*
 Runtime Polymorphism with Data Members
-Runtime Polymorphism cannot be achieved by data members in C++. Let’s see an example 
-where we are accessing the field by reference variable of parent class which refers to the 
+Runtime Polymorphism cannot be achieved by data members in C++. Let’s see an example
+where we are accessing the field by reference variable of parent class which refers to the
 instance of the derived class.
 We can see that the parent class reference will always refer to the data member of the parent class.
 */

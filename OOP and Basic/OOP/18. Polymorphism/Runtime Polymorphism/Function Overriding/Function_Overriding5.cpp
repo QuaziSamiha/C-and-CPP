@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 
-class Parent {
+class Parent
+{
 public:
 	void GeeksforGeeks()
 	{
@@ -10,7 +11,8 @@ public:
 	}
 };
 
-class Child : public Parent {
+class Child : public Parent
+{
 public:
 	void GeeksforGeeks()
 	{
@@ -22,8 +24,8 @@ int main()
 {
 	Child Child_Derived;
 
-	// pointer of Parent type that points to derived1
-	Parent* ptr = &Child_Derived;
+	// pointer of Parent type that points to derived
+	Parent *ptr = &Child_Derived;
 
 	// call function of Base class using ptr of base class
 	ptr->GeeksforGeeks();
@@ -31,4 +33,4 @@ int main()
 	return 0;
 }
 
-// output: Base Function
+//? output: Base Function

@@ -1,5 +1,6 @@
 #include <iostream>
-// 24.03.24
+//? 24.03.24
+//? 18 June, 2025
 using namespace std;
 
 class class_1
@@ -32,4 +33,3 @@ int main()
 }
 
 // output: class_1
-

@@ -4,7 +4,7 @@ using namespace std;
 // pure virtual function --> virtual function with no definition
 // a virtual function is redefined in derived class
 // A class that contains a pure virtual function is called the abstract class
-// pure virtual function has to define in derived class -- its compulsary
+// pure virtual function has to define in derived class -- its compulsory
 // you cannot create object of abstract class -- so it is used as base class for other class
 class class_1
 {
