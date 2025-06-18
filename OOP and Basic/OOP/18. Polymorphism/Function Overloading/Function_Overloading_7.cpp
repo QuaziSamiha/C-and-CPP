@@ -1,4 +1,7 @@
-// c++ consider decimal number as double  (1:23am,17 May,2020 & 10:33am,19 August,2020)
+// c++ consider decimal number as double
+//? (1:23am,17 May,2020 & 10:33am,19 August,2020)
+//? 2024
+//? 18 June, 2025
 #include <iostream>
 
 using namespace std;

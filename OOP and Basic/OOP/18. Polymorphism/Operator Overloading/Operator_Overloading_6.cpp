@@ -1,11 +1,14 @@
 // C++ program to demonstrate
-// 03.03.24
+//? 03.03.24
+//? 18 June, 2025
 #include <iostream>
 using namespace std;
 
-class Complex {
+class Complex
+{
 private:
 	int real, imag;
+
 public:
 	Complex(int r = 0, int i = 0)
 	{
@@ -13,7 +16,7 @@ public:
 		imag = i;
 	}
 	// This is automatically called when '+' is used with between two Complex objects
-	Complex operator+(Complex const& obj)
+	Complex operator+(Complex const &obj)
 	{
 		Complex res;
 		res.real = real + obj.real;
@@ -30,5 +33,5 @@ int main()
 
 	// An example call to "operator+"
 	Complex c3 = c1 + c2;
-	c3.print();
+	c3.print(); //? output: 12 + i9
 }

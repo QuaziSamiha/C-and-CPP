@@ -1,5 +1,7 @@
 // Binary Operator Overloading
-// (12:34am,20 May,2020 & 11:00am,19 August,2020)
+//? (12:34am,20 May,2020 & 11:00am,19 August,2020)
+//? 2024
+//? 18 June, 2025
 #include <iostream>
 using namespace std;
 
@@ -41,3 +43,11 @@ int main()
     object_one + object_two; // calling operator function
     return 0;
 }
+
+/*
+
+After operation :
+data_member_1 : 12
+data_member_2 : 24
+
+*/

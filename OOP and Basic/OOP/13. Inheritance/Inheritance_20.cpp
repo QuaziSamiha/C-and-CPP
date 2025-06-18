@@ -42,7 +42,7 @@ public:
     }
 };
 
-class class_3 : public class_2, public class_1
+class class_3 : public class_2, public class_1 //! this order is most important both for constructor and destructor
 {
     int data_member_1_class_3, data_member_2_class_3;
 
@@ -77,3 +77,22 @@ int main()
     object.member_function_class_3();
     return 0;
 }
+
+/*
+output:
+Constructor class_2
+Constructor class_1
+Constructor class_3
+
+data_member_1_class_1 : 10
+data_member_2_class_1 : 20
+data_member_1_class_2 : 30
+data_member_2_class_2 : 40
+data_member_1_class_3 : 50
+data_member_2_class_3 : 60
+
+Destructor Class_3
+Destructor Class_1
+Destructor Class_2
+
+*/
